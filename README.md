@@ -1,6 +1,5 @@
 # Fundamentals of Web Development, 2nd Edition
 ### Chapter 4 [CSS 1], Project 2 [Book CRM]
-This project updates the CRM HTML page you started in Project 2.2 to add some
-visual style and make it look professional
-
-  
+<h1>Assignment 2</h1>
+<h2>Jillian Buttecali</h2>
+<p>This is my HTML and CSS submission for ISTM 6205, assignment number two.</p>
