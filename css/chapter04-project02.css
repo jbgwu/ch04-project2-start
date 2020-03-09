@@ -1,0 +1,111 @@
+/* CSS file for Assignment 2
+// Jillian Buttecali */
+
+/* styles requested from the rubric
+
+a [href^='mailto'] {
+  background: url(images/email.png) no-repeat 0 3px;
+  padding-left: 1em;
+}
+a [href^='tel'] {
+  background: url(images/call.png) no-repeat 0 3px;
+  padding-left: 1em;
+}
+*/
+
+html, body, div, p, h1, h2, h3, h4, h5, h6, span {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+html, body, div, p, h1, h2, h3, h4, h5, h6, ul, ol, li, a, span {
+  font-family: "Roboto", Arial;
+}
+
+h1 {
+  font-size: 30px;
+}
+h2 {
+  font-size: 25px;
+}
+h3 {
+  font-size: 20px;
+}
+p, a {
+  font-size: 15px;
+}
+
+/* NAVIGATION */
+#mainMenu {
+  background-color: #263238;
+  padding: 5px;
+  text-align: right;
+}
+#mainMenu a, footer a {
+  color: #03A9F4;
+  text-decoration: none;
+  padding: 5px;
+}
+#mainMenu p, footer p {
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px 15px 20px;
+  font-size: 12px;
+}
+#title {
+  background-image: url("../images/header-background.png");
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#CRM {
+  color: red;
+}
+#secondaryMenu {
+  background-color: #607D8B;
+  padding: 5px;
+}
+#secondaryMenu a {
+  color: #03A9F4;
+  text-decoration: none;
+  padding: 5px;
+}
+#secondaryMenu a:hover {
+  color: white;
+  background-color: #FF3D00;
+}
+
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  color: #03A9F4;
+  font-size: 15px;
+}
+nav li {
+  display: inline;
+  text-decoration: none;
+}
+
+/* HERO IMAGE */
+
+/* BODY ARTICLESS */
+body {
+  background-color: #ECEFF1;
+}
+
+.grid-container {
+  display: grid;
+  align-content: center;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+
+
+footer {
+  background-color: #263238;
+  padding: 5px;
+}

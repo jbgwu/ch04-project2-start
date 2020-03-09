@@ -2,12 +2,13 @@
 <html lang="en">
 <head>
    <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Assignment 2 | Jillian Buttecali</title>
    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
    <link rel="stylesheet" href="css/reset.css" />
    <link rel="stylesheet" href="css/chapter04-project02.css" />
 </head>
-<body>
+<body class='grid-container'>
    <header>
       <nav id="mainMenu">
          <ul>
@@ -16,11 +17,11 @@
            <li><a href="#">Inventory</a></li>
          </ul>
       </nav>
-      <h1><span>CRM</span> Admin</h1>
+      <h1 id="title"><span id='CRM'>CRM</span> Admin</h1>
       <nav id="secondaryMenu">
          <ul>
-           <li><a href="#contacts">Contacts</a></li>
-           <li><a href="#orders">Orders</a></li>
+           <li><a href="#">Contacts</a></li>
+           <li><a href="#">Orders</a></li>
            <li><a href="#">Calendar</a></li>
            <li><a href="#">Tasks</a></li>
            <li><a href="#">Evaluation Copies</a></li>
@@ -34,7 +35,7 @@
          <h2>Jack  Smith</h2>
       </div>
       <section>
-         <h3>Personal Details</h3>
+         <h3 id="title">Personal Details</h3>
          <p>
            <em>Address:</em> 1 Microsoft Way<br>
            <em>City:</em>    Redmond<br>
@@ -50,7 +51,7 @@
       </div>
       </section>
       <section>
-         <h3 id='contacts'>Contact</h3>
+         <h3 id='title'>Contact</h3>
          <p>
            <em>Phone:</em> <a href="tel:+14258828080">+1 (425) 882-8080</a><br/>
            <em>Email:</em> <a href="mailto:jacksmith@microsoft.com">jacksmith@microsoft.com</a>
@@ -63,7 +64,7 @@
          </div>
       </section>
       <section>
-         <h3 id='orders'>Sales Activity</h3>
+         <h3 id='title'>Sales Activity</h3>
          <figure>
             <img src="images/chart.png" alt="chart" title="sales chart" />
          </figure>
