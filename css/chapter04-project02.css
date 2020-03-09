@@ -1,0 +1,162 @@
+/*
+//
+// CSS file for Assignment 2
+// Jillian Buttecali
+//
+*/
+
+
+/*
+// UNIVERSAL STYLES
+*/
+
+html, body, div, p, h1, h2, h3, h4, h5, h6, ul, ol, li, a, span {
+  font-family: 'Roboto', Arial;
+}
+h1 {
+  font-size: 30px;
+}
+h2 {
+  font-size: 25px;
+}
+h3 {
+  font-size: 20px;
+}
+p, a {
+  font-size: 15px;
+}
+p em {
+  color: gray;
+}
+a {
+  color: #03A9F4;
+}
+p [href^='mailto'] {
+  background: url('../images/email.png') no-repeat 0 3px;
+  padding-left: 1.5em;
+}
+p [href^='tel'] {
+  background: url('../images/call.png') no-repeat 0 3px;
+  padding-left: 1.5em;
+}
+/*
+//
+// NAVIGATION
+//
+*/
+header {
+}
+#mainMenu {
+  background-color: #263238;
+  padding: 5px 80px 5px 0px;
+  text-align: right;
+}
+#mainMenu a, footer a {
+  color: #03A9F4;
+  text-decoration: none;
+  padding: 5px;
+}
+#mainMenu p, footer p {
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px 15px 20px;
+  font-size: 12px;
+}
+#title {
+  background-image: url('../images/header-background.png');
+  color: white;
+}
+#CRM {
+  color: red;
+  padding: 10px 10px 10px 80px;
+}
+#secondaryMenu {
+  background-color: #607D8B;
+  padding: 5px 0px 5px 80px;
+}
+#secondaryMenu a {
+  color: #03A9F4;
+  text-decoration: none;
+  padding: 5px;
+}
+#secondaryMenu a:hover {
+  color: white;
+  background-color: #FF3D00;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  color: #03A9F4;
+  font-size: 15px;
+}
+nav li {
+  display: inline;
+  text-decoration: none;
+}
+/*
+//
+// BODY SECTIONS
+//
+*/
+body {
+  background-color: #ECEFF1;
+}
+section p, h3 {
+  padding: 10px;
+}
+#mainContact div:first-child {
+  box-sizing: content-box;
+  background-color: white;
+  text-align: center;
+  margin: 1em 5em;
+  padding: 1em;
+  text-align: center;
+}
+#mainContact section {
+  box-sizing: content-box;
+  background-color: white;
+  margin: 1em 5em;
+  border: solid 2pt;
+  border-color: #607D8B;
+  border-radius: 3px;
+}
+div.actions {
+  background-color: #607D8B;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+div.actions ul {
+  list-style-type: none;
+  margin: 5px;
+  padding: 5px;
+}
+div.actions li {
+  display: inline;
+}
+div.actions a {
+  color: white;
+  text-decoration: none;
+  background-color: #FF3D00;
+  padding: 5px 5px 5px 20px;
+  border-radius: 3px;
+}
+a.actionEdit {
+  background: url('../images/edit.png') no-repeat 3px;
+}
+a.actionFlag {
+  background: url('../images/flag.png') no-repeat 3px;
+}
+figure img {
+  width: 100%;
+  height: 100%;
+}
+/*
+//
+// FOOTER
+//
+*/
+footer {
+  background-color: #263238;
+  padding: 5px 5px 5px 60px;
+}
