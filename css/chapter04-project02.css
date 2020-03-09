@@ -1,27 +1,18 @@
-/* CSS file for Assignment 2
-// Jillian Buttecali */
+/*
+//
+// CSS file for Assignment 2
+// Jillian Buttecali
+//
+*/
 
 
-a [href^='mailto'] {
-  background-image: url('../images/email.png') no-repeat 0 3px;
-  padding-left: 1em;
-}
-a [href^='tel'] {
-  background: url(images/call.png) no-repeat 0 3px;
-  padding-left: 1em;
-}
+/*
+// UNIVERSAL STYLES
+*/
 
-html, body, div, p, h1, h2, h3, h4, h5, h6, span {
-  padding: 0px;
-  margin: 0px;
-  border: 0px;
-  font-size: 100%;
-  vertical-align: baseline;
-}
 html, body, div, p, h1, h2, h3, h4, h5, h6, ul, ol, li, a, span {
-  font-family: "Roboto", Arial;
+  font-family: 'Roboto', Arial;
 }
-
 h1 {
   font-size: 30px;
 }
@@ -37,11 +28,27 @@ p, a {
 p em {
   color: gray;
 }
-
-/* NAVIGATION */
+a {
+  color: #03A9F4;
+}
+p [href^='mailto'] {
+  background: url('../images/email.png') no-repeat 0 3px;
+  padding-left: 1.5em;
+}
+p [href^='tel'] {
+  background: url('../images/call.png') no-repeat 0 3px;
+  padding-left: 1.5em;
+}
+/*
+//
+// NAVIGATION
+//
+*/
+header {
+}
 #mainMenu {
   background-color: #263238;
-  padding: 5px;
+  padding: 5px 80px 5px 0px;
   text-align: right;
 }
 #mainMenu a, footer a {
@@ -56,17 +63,16 @@ p em {
   font-size: 12px;
 }
 #title {
-  background-image: url("../images/header-background.png");
+  background-image: url('../images/header-background.png');
   color: white;
-  padding-top: 10px;
-  padding-bottom: 10px;
 }
 #CRM {
   color: red;
+  padding: 10px 10px 10px 80px;
 }
 #secondaryMenu {
   background-color: #607D8B;
-  padding: 5px;
+  padding: 5px 0px 5px 80px;
 }
 #secondaryMenu a {
   color: #03A9F4;
@@ -77,8 +83,6 @@ p em {
   color: white;
   background-color: #FF3D00;
 }
-
-
 nav ul {
   list-style-type: none;
   margin: 0;
@@ -90,18 +94,42 @@ nav li {
   display: inline;
   text-decoration: none;
 }
-
-/* HERO IMAGE */
-
-/* BODY ARTICLESS */
+/*
+//
+// BODY SECTIONS
+//
+*/
 body {
   background-color: #ECEFF1;
 }
-
+section p, h3 {
+  padding: 10px;
+}
+#mainContact div:first-child {
+  box-sizing: content-box;
+  background-color: white;
+  text-align: center;
+  margin: 1em 5em;
+  padding: 1em;
+  text-align: center;
+}
+#mainContact section {
+  box-sizing: content-box;
+  background-color: white;
+  margin: 1em 5em;
+  border: solid 2pt;
+  border-color: #607D8B;
+  border-radius: 3px;
+}
 div.actions {
   background-color: #607D8B;
   padding-top: 2px;
   padding-bottom: 2px;
+}
+div.actions ul {
+  list-style-type: none;
+  margin: 5px;
+  padding: 5px;
 }
 div.actions li {
   display: inline;
@@ -114,19 +142,21 @@ div.actions a {
   border-radius: 3px;
 }
 a.actionEdit {
-  background-image: url('../images/edit.png');
-  background-repeat: no-repeat;
-  background-position: left;
+  background: url('../images/edit.png') no-repeat 3px;
 }
 a.actionFlag {
-  background-image: url('../images/flag.png');
-  background-repeat: no-repeat;
-  background-position: left;
+  background: url('../images/flag.png') no-repeat 3px;
 }
-
-
-
+figure img {
+  width: 100%;
+  height: 100%;
+}
+/*
+//
+// FOOTER
+//
+*/
 footer {
   background-color: #263238;
-  padding: 5px;
+  padding: 5px 5px 5px 60px;
 }
